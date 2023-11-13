@@ -4,7 +4,7 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import ChatIcon from '@mui/icons-material/Chat';
 import HomeIcon from '@mui/icons-material/Home';
-import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
+import BudgetIcon from '@mui/icons-material/CurrencyExchange';
 import TasksIcon from '@mui/icons-material/Assignment';
 import { Paper } from '@mui/material';
 
@@ -25,7 +25,7 @@ const App = () => {
         <BottomNavigationAction label="Shopping List" value={-2} icon={<ShoppingBagIcon />} />
         <BottomNavigationAction label="Chat" value={-1} icon={<ChatIcon />} />
         <BottomNavigationAction label="Home" value={0} icon={<HomeIcon />} />
-        <BottomNavigationAction label="Budget" value={1} icon={<CurrencyExchangeIcon />} />
+        <BottomNavigationAction label="Budget" value={1} icon={<BudgetIcon />} />
         <BottomNavigationAction label="Tasks" value={2} icon={<TasksIcon />} />
 
       </BottomNavigation>
